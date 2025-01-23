@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Totally Legit News</title>
+    <style>
+        /* Basic page styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            background-color: #d32f2f; /* Christmas Red */
+            color: white;
+            padding: 30px;
+            font-size: 3em;
+            margin: 0;
+            font-family: 'Cinzel', serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 900px;
+            color: #2c3e50;
+        }
+
+        /* Style for the "About Us" paragraph */
+        .about-us-container {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-image: url('https://www.transparenttextures.com/patterns/Christmas-sweater.png');
+            background-size: cover;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Add Christmas Tree and Gifts Icons */
+        .christmas-decorations {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 30px;
+            color: #ffdf00;
+        }
+
+        /* Snowflakes decoration */
+        .snowflakes {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            z-index: -1;
+            font-size: 30px;
+            opacity: 0.8;
+            animation: snowflakeFall 12s linear infinite;
+        }
+
+        .snowflakes span {
+            position: absolute;
+        }
+
+        /* Snowflake animation */
+        @keyframes snowflakeFall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Fun bouncing gift animation */
+        @keyframes giftBounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .gift {
+            font-size: 40px;
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: giftBounce 2s infinite ease-in-out;
+        }
+
+        /* Adding star twinkle effect */
+        .star {
+            position: absolute;
+            top: 20%;
+            right: 10%;
+            font-size: 30px;
+            color: #ffdf00;
+            animation: starTwinkle 1.5s ease-in-out infinite;
+        }
+
+        @keyframes starTwinkle {
+            0% {
+                opacity: 0.7;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            100% {
+                opacity: 0.7;
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Snowflakes falling -->
+    <div class="snowflakes">
+        <span>❄️</span>
+        <span>❄️</span>
+        <span>❄️</span>
+        <span>❄️</span>
+        <span>❄️</span>
+    </div>
+
+    <!-- Christmas decoration -->
+    <div class="christmas-decorations">
+        🎄🎁
+    </div>
+
+    <div class="gift">
+        🎁
+    </div>
+
+    <!-- Title -->
+    <h1>About Us - We Totally Know What's Going On</h1>
+
+    <!-- Main About Us Content -->
+    <div class="about-us-container">
+        <p>Welcome to <strong>Totally Legit News</strong>, where we bring you the most real and reliable news on the planet. Are we trustworthy? Absolutely, our sources are top-secret government officials. We know that sounds skeptical, but trust us, we have it all covered. We spend hours researching the world's biggest mysteries. For example, did you know the moon is made of cheese? That is a fact, according to our sources on the International Space Station.</p>
+
+        <p>At <strong>Totally Legit News</strong>, we don't just report the news—we make the news. We don't worry about things like "facts" or "research." If it sounds ridiculous, we're all in. We've even uncovered that squirrels are secretly in charge of world governments. Trust us, you haven't heard the truth until you've heard it from us. Our team works hard, sometimes too hard, to bring you the most entertaining and confusing stories possible. We cover it all.</p>
+
+        <p>Are we a reliable news source? Not really, to be honest. But are we fun? Yes, 100%. If you want serious facts, you're in the wrong place. We are your go-to team when it comes to having a good laugh and taking a wild ride through made-up stories. Stay tuned, and we'll make sure your day is filled with surprises, confusion, and maybe a tiny bit of truth.</p>
+
+        <p><strong>Stay weird. Stay curious. Stay Totally Legit.</strong></p>
+    </div>
+
+</body>
+</html>
